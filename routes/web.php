@@ -16,6 +16,16 @@ Route::get('activos/update', function () {
     return view('activos/update');
 });
 
+Route::get('usuarios/show', function () {
+    return view('activos/show');
+});
+Route::get('usuarios/create', function () {
+    return view('activos/create');
+});
+Route::get('usuarios/update', function () {
+    return view('activos/update');
+});
+
 
 Route::get('mantenimiento/update', function () {
     return view('mantenimiento/update');
