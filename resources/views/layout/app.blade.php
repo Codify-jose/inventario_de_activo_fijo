@@ -71,6 +71,22 @@
                             </ul>
                           </li>
                         </ul>
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdown" role="button"
+                              data-bs-toggle="dropdown" aria-expanded="false">
+                              Usuarios
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="/Categorias/create">Crear</a></li>
+                              <li><a class="dropdown-item" href="/Categorias/update">Actualizar</a></li>
+                              <li>
+                                <hr class="dropdown-divider">
+                              </li>
+                              <li><a class="dropdown-item" href="/Categorias/show">Mostrar </a></li>
+                            </ul>
+                          </li>
+                        </ul>
                     </ul>
                 </div>
             </div>
