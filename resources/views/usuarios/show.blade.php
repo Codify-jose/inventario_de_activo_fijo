@@ -13,8 +13,8 @@
 </div>
       <br>
  {{-- Botón para ir al formulario de agregar usuario --}}
- <a class="btn btn-danger btn-sm" href="/products/create">Agregar nuevo usuario</a>
- <a class="btn btn-success btn-sm" href="/products/create">PDF</a>
+ <a class="btn btn-danger btn-sm" href="/usuarios/create">Agregar nuevo usuario</a>
+ <a class="btn btn-success btn-sm" href="/usuarios/create">PDF</a>
 
  <table class="table table-hover table-bordered mt-2">
  <tr>
@@ -33,9 +33,9 @@
  <td>{{ $item->email }}</td>
  <td>{{ $item->telefono }}</td>
  <td>
-<a class="btn btn-success btn-sm" href="/products/update/{{$item->codigo}}">Modificar</a>
+<a class="btn btn-success btn-sm" href="/usuarios/update/{{$item->codigo}}">Modificar</a>
 
-<button class="btn btn-danger btn-sm" url="/products/destroy/{{$item->codigo}}" onclick="destroy(this)" token="{{ csrf_token() }}">Eliminar</button>
+<button class="btn btn-danger btn-sm" url="/usuarios/destroy/{{$item->codigo}}" onclick="destroy(this)" token="{{ csrf_token() }}">Eliminar</button>
 
 
 </td>

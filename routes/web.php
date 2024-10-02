@@ -15,3 +15,14 @@ Route::get('activos/create', function () {
 Route::get('activos/update', function () {
     return view('activos/update');
 });
+
+// usuarios
+Route::get('usuarios/show', function () {
+    return view('activos/show');
+});
+Route::get('usuarios/create', function () {
+    return view('activos/create');
+});
+Route::get('usuarios/update', function () {
+    return view('activos/update');
+});
